@@ -1,0 +1,45 @@
+* Product based:These are the company which have their own product to sell
+* Service based:These copany they may not have or have their product but their primary business is providing service
+*project is developeed by service based company
+*product is developed by product based company
+*project is a short term application development
+*product is a long term application development
+*client is either a person or an organization using as a service
+*client is the one which will use the service and access the information
+-----------------------------
+*There is a server called DNS derver when we type google,com it will go to the dns server there it will check if ip is available for google
+*ipconfig is a command to check ip
+----------------------------------
+*Client server architecture refers to a system that hosts delivers and manages most of the resources and services that is available for client-server request
+*request is sent to the server by protocal.Protocal is set of rules accepted by both client and servers
+*HTTP is hyper text transfer protocol
+*HTTPS is a secure protocol Hyper Text Tranfer Protocol secure
+-----------------------------------
+Characteristics of client-server architect
+1. Client and server machines they typically have different hardware.Ex chrome browser or other browser, server from IBM and Dell.Vendor company sell their hardware
+2. The network has horizintal scalability which increases number of client machines and vertical scalability which increases and enhance our server capabilities
+3. Horizontal scalabilty is for client side(How much client I can increase)(|)
+4. Vertical scalability is used for server side to ditribute load(How much client requests can be processed)(_)
+5. Both client and server side interact with transfer layer protocol
+6. Server side is centralized system which will keep all the service in one palace.it improves scalability.
+Disdavantegs:
+1. Virus or Trojans:If we are downloading any file which is having virus then it will affect client
+2. Highly vulenerable if we are using http
+------------------------------------------
+Types of client-server architechture
+1. 1-tier(it means one layer architecture)It contains all set of settings in a single machine.setting consist of data layers
+2. 2.tier(it means two layer architecture)It is preffered as best architecture presentation layer client layer will be on a different system and business lyer, database server will be on different system
+below required for 2-tier architecture
+*.Fat Client Thin Server:
+*.Thin Client Fat Server:
+3. 3-tier(it means three layer architecture):Here we create a middle ware between the client and server which is business layer.client layer(fron-ent UI layer), server layer(Dao-Data access object layer) and business layer(service , serviceimpl layer)
+4. N-tier architecture
+------------------------------------------
+Requirements for client-server architecture
+1. Web server
+2. Client server and server side validation
+3. File server to store small data in the file
+4. registery or dns:here we will be registering our ip with name
+--------------------------------------------
+For tomorrow:
+Http request how we are using http reponse hhtp status code http methods
