@@ -1,5 +1,5 @@
 * Product based:These are the company which have their own product to sell
-* Service based:These copany they may not have or have their product but their primary business is providing service
+* Service based:These company they may not have or have their product but their primary business is providing service
 *project is developeed by service based company
 *product is developed by product based company
 *project is a short term application development
@@ -30,8 +30,8 @@ Types of client-server architechture
 1. 1-tier(it means one layer architecture)It contains all set of settings in a single machine.setting consist of data layers
 2. 2.tier(it means two layer architecture)It is preffered as best architecture presentation layer client layer will be on a different system and business lyer, database server will be on different system
 below required for 2-tier architecture
-*.Fat Client Thin Server:
-*.Thin Client Fat Server:
+*.Fat Client Thin Server:Logic and processing happens on the client side ex ms outlook, or any video editing software or dektop video games, here majority of process happens on client side
+*.Thin Client Fat Server:Logic and processing happens on the server side here client does not have many reponsibilities ex netflix, hotstar, ecommerce site or video streming site
 3. 3-tier(it means three layer architecture):Here we create a middle ware between the client and server which is business layer.client layer(fron-ent UI layer), server layer(Dao-Data access object layer) and business layer(service , serviceimpl layer)
 4. N-tier architecture
 ------------------------------------------
@@ -41,5 +41,35 @@ Requirements for client-server architecture
 3. File server to store small data in the file
 4. registery or dns:here we will be registering our ip with name
 --------------------------------------------
-For tomorrow:
-Http request how we are using http reponse hhtp status code http methods
+Logic and processing happens on the server side here client does not have many reponsibilities ex netflix
+Logic and processing happens on the client side ex ms word, excess
+Http request:
+----------------------------------------------
+* HTTP is based on TCP ip based communication protocol that is used to provide standardizee way to communicate with each other.
+* HTTP is stateless.
+URI:Uniform Resource Identifiers ex http::/9092/localhost/lara
+* An HTTP client send request to server in the form of request messages once the connection is established using the http protocol between the client nd server
+Http request consist of :
+1. request line: (it is the url of the request which is used to find resource on the server)
+2. request header: (request header is useful to pass lot of information with url)
+3. request body:(it is used to send some additional data to the server as json format or xml format)
+
+Http Response: it is a desired resource or information what a client wants from a server.It first contains a status line(status line will show the response code ex ok or bad request) it will also pass some additionl information to the client from the server like http request.
+response body: It contains actual info or response demanded by the client.It will show the error also
+
+statust code
+-----------
+1. Code which start with 1 ex 100 it means request has been succefully sent
+---------------------------
+* Authentication and Authorization : 
+1. Authentication :It verifies the identity of a user to a service
+a. Single level authentication: It requires username and password.
+b. Two factor authentication or two phase authentication:It is token based authentication. Which means first request will be to get token from the server with user id and password.Token will be encrypted letters.once token is generated based on the token server will accept the request.
+2. Authorization: It actually determines the roles of access rights
+-----------------------
+* Idempotent behaviour: Idempotent implies that a certain operation can be applied many times, without changing the result. Essentially, it is like multiplying a number by zero. No matter how many times you multiply a number, the result is still zero. In order to change the result, you need to change the operation.
+
+*caching : it is like short term live period.It will store some in-memory in application memory data while application is running.
+//Try Postman and test methods
+//api.domainsdb.info
+//universal-tutorial.com/api/getaccesstoken
