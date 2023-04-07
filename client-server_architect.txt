@@ -73,3 +73,27 @@ b. Two factor authentication or two phase authentication:It is token based authe
 //Try Postman and test methods
 //api.domainsdb.info
 //universal-tutorial.com/api/getaccesstoken
+--------------------------
+* MVC is a design pattern and it is also called as a arcitechtural pattern  which devides code into 3 different components.
+* It wil be helpful for a developer like us for clean separation of components
+* Arcitechtural pattern: The pattern which governs/control the whole architecture of our application.It is used for solving larger architectural problems.
+* Design patterns are the best practices used by a software developerDesign pattern here is a solution to general problems that a developer face during software development.
+* MVC divides a software application in 3 layers
+  Model
+  View
+  Controller (Mostly controllers are the servlets)
+* business logic in JSP's also, In servlet also (This will create confusion and complexity)
+* Isolation of application logic from the User Interface
+* Each of the component have some specific responsibility
+* Model : Interacts with Database, Also responsible for executing business logic.(All java classes, Entity classes, java beans, Define the Database, Schemmas, DataSource object)
+* View : What user sees on the screen, Generate UI for the users.(Any presentation logic/technology ex HTML, CSS)
+* Controller : takes user input (Request param), Also interacts with model and view. Controller hold the function which calls the service and deals with Raw data. Controller here acts as a mediater between model and view.(Servlets/Servlets Filter)
+* Router :(all our api's), Defines the Endpoints
+* Services : Establish a connection to the database, All the database quries should be written here, ALl the data manipulation logics to be written here, get the data from the database
+* what architecture you followed during developing your peoject?:I followed MVC architecture
+* in general term model layer is also called as service
+------------------------------------------------------------
+Raw folder structure
+
+
+

@@ -2,6 +2,7 @@ REST Specific HTTP Status Codes
 
 1. 200(OK): It indicates that the request was succeeded
 2. 400(Bad Request) :The request could not be understood by the server due to incorrect syntax.The client should not repeat the request with modification
-3. 405 Method not allowed: The request Http method is known by the server but has been disabled and can not be used for that resource
-4. 500(Internam Server error) The server encountered an unexpexted condition that prevented it from fulfilling the request
-5. 502(Bad Gateway) : The server got an invalid response while workuing as a gateway to get the response needed to handle the request.
+3. 403: You don't have authorization to view this page.
+4. 405 Method not allowed: The request Http method is known by the server but has been disabled and can not be used for that resource
+5. 500(Internam Server error) The server encountered an unexpexted condition that prevented it from fulfilling the request
+6. 502(Bad Gateway) : The server got an invalid response while workuing as a gateway to get the response needed to handle the request.
